@@ -1,0 +1,34 @@
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.space{
+    display: flex;
+    margin: 30px;
+}
+
+.test{
+    padding: 40px;
+}
+
+.test:hover {
+    -webkit-transform:rotate(-30deg);
+    -moz-transform:rotate(-30deg);
+    -o-transform:rotate(-30deg);
+    transform:rotate(-30deg);
+
+}
